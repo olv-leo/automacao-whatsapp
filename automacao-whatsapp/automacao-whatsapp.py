@@ -8,6 +8,7 @@ def gerar_link_wpp(numero, msg=None):
     msg = "&text=" + msg if msg else ''
     return f'https://api.whatsapp.com/send?phone=55{numero}{msg}'
 
+
 if __name__ == '__main__':
     print(gerar_link_wpp(16997952356))
     print(gerar_link_wpp(16997952356, 'Teste'))
