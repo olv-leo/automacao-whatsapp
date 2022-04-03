@@ -2,6 +2,7 @@
 Biblioteca com algumas automações simples de WhatsApp para praticar meu estudo de Python.
 
 Biblioteca criada usando a versão 3 do Python.
+
 [![Build Status](https://app.travis-ci.com/olv-leo/automacao-whatsapp.svg?branch=master)](https://app.travis-ci.com/olv-leo/automacao-whatsapp)
 
 Para instalar (no Windowns):
