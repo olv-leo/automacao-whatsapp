@@ -3,6 +3,7 @@
 def gerar_link_wpp(numero, msg=None) :
 
 
+
     """
     Recebe um número e uma mensagem e gera um link de WhatsApp para o numero com a mensagem.
     :param numero: str com o número de telefone
