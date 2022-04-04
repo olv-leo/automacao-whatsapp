@@ -12,7 +12,6 @@ def gerar_link_wpp(numero, msg=None):
     numero = f'https://api.whatsapp.com/send?phone=55{numero}' if numero else ''
     return f'{numero}{msg}'
 
+
 class NumeroInvalido(Exception):
     pass
-
-
