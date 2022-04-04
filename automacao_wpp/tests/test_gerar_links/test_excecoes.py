@@ -7,7 +7,7 @@ import pytest
     [
         ('', ''),
         ('', 'Teste')
-     ]
+    ]
 )
 def test_gerar_link_wpp(numero, msg):
     with pytest.raises(NumeroInvalido):
