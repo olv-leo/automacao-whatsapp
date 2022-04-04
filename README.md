@@ -1,5 +1,7 @@
 # Automação WhatsApp
-Biblioteca com algumas automações simples de WhatsApp para praticar meu estudo de Python.
+Repositório com uma automação simples para gerar links diretos para conversas no WhatsApp.
+O objetivo do repositório é praticar testes automáticos, cobertura de testes e integração contínua usando
+Pytest, Travis CI e Coverall.
 
 Biblioteca criada usando a versão 3 do Python.
 

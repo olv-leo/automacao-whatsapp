@@ -5,10 +5,14 @@ def gerar_link_wpp(numero, msg=None):
     :param msg: str com a mensagem que será enviada
     :return: str com o link para a iniciar a conversa com o numero enviando a mensagem
     """
-    msg = "&text=" + msg if msg else ""
-    return f"https://api.whatsapp.com/send?phone=55{numero}{msg}"
+    msg = '&text=' + msg if msg else ""
+    if not numero.isdigit():
+        raise NumeroInvalido('O número digitado é inválido.')
+
+    numero = f'https://api.whatsapp.com/send?phone=55{numero}' if numero else ''
+    return f'{numero}{msg}'
+
+class NumeroInvalido(Exception):
+    pass
 
 
-if __name__ == "__main__":
-    print(gerar_link_wpp(16997952356))
-    print(gerar_link_wpp(16997952356, "Teste"))
